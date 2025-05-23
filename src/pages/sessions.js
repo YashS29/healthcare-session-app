@@ -1,5 +1,7 @@
 // src/pages/api/sessions.js
-import { mockSessions } from '../../data/mockSessions';
+// import { mockSessions } from '../../data/mockSessions';
+import { mockSessions } from '../data/mockSessions';
+
 
 export default function handler(req, res) {
   const { method, query, body } = req;
