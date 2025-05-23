@@ -24,13 +24,14 @@ export default function Document() {
         </noscript>
         
         {/* Critical CSS */}
-        <style jsx>{`
+        {/* <style jsx>{`
           body { 
             font-family: 'Inter', sans-serif; 
             background-color: #F8FAFC; 
             margin: 0; 
           }
-        `}</style>
+        `}</style> */}
+        
       </Head>
       <body>
         <Main />

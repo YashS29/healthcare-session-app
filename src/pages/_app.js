@@ -38,4 +38,4 @@ export default function App({ Component, pageProps }) {
     </ThemeProvider>
   );
 }
-
+export { reportWebVitals } from '../utils/performance';

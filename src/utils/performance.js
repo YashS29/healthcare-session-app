@@ -13,4 +13,4 @@ export const reportWebVitals = (metric) => {
   };
   
   // Add to _app.js
-  export { reportWebVitals } from '../utils/performance';
+  // export { reportWebVitals } from '../utils/performance';
